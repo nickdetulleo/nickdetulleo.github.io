@@ -1,4 +1,4 @@
-# nickdetulleo.github.io
+# Capstone Project
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
