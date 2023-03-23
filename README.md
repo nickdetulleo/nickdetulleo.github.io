@@ -1,8 +1,6 @@
 # nickdetulleo.github.io
-<!DOCTYPE html>
 <html>
   <head>
-    <title>My Digital Photos</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
