@@ -29,7 +29,8 @@
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>Provide your contact information and any additional information about your project.</p>
+            <p>nd725919@sju.edu.
+               </p>
         </section>
     </main>
     <footer>
