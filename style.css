@@ -33,6 +33,20 @@ a {
     text-align: center;
     margin: 0.5em 0;
 }
+nav {
+  font-size: 14px; /* set font size for the navigation bar */
+  position: absolute; /* position the navigation bar absolutely */
+  top: 0; /* set top position to 0 */
+  right: 0; /* set right position to 0 */
+}
+
+h1 {
+  font-size: 24px; /* set font size for the H1 */
+  position: absolute; /* position the H1 absolutely */
+  top: 10px; /* set top position to 10px */
+  right: 20px; /* set right position to 20px */
+}
+
 
 /* Header Styles */
 header {
