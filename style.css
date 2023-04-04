@@ -36,8 +36,8 @@ a {
 nav {
   font-size: 20px; /* set font size for the navigation bar */
   position: absolute; /* position the navigation bar absolutely */
-  top: -1; /* set top position to 0 */
-  right: -1; /* set right position to 0 */
+  top: 0; /* set top position to 0 */
+  right: 0; /* set right position to 0 */
 }
 
 h1 {
