@@ -1,34 +1,40 @@
-# Capstone Project
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <section class="photo-grid">
-      <div class="photo">
-        <img src="img/photo1.jpg" alt="Photo 1">
-        <h2>Photo 1</h2>
-      </div>
-      <div class="photo">
-        <img src="img/photo2.jpg" alt="Photo 2">
-        <h2>Photo 2</h2>
-      </div>
-      <div class="photo">
-        <img src="img/photo3.jpg" alt="Photo 3">
-        <h2>Photo 3</h2>
-      </div>
-      <div class="photo">
-        <img src="img/photo4.jpg" alt="Photo 4">
-        <h2>Photo 4</h2>
-      </div>
-      <div class="photo">
-        <img src="img/photo5.jpg" alt="Photo 5">
-        <h2>Photo 5</h2>
-      </div>
-      <div class="photo">
-        <img src="img/photo6.jpg" alt="Photo 6">
-        <h2>Photo 6</h2>
-      </div>
-    </section>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Murals of Philadelphia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Murals of Philadelphia</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>Introduce your photo essay and provide some background about murals in Philadelphia.</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <!-- Add your photos and captions here -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Provide your contact information and any additional information about your project.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Your Name 2023</p>
+    </footer>
+</body>
 </html>
+
