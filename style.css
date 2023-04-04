@@ -1,1 +1,63 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+h1, h2 {
+    text-align: center;
+    margin: 1em 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-item {
+    margin: 1em;
+}
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.gallery-item p {
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav {
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin: 0 1em;
+}
+nav li a:hover {
+    border-bottom: 2px solid #000;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ccc;
+    padding: 1em;
+    text-align: center;
+}
 
