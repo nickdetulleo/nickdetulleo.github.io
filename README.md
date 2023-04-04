@@ -29,7 +29,7 @@
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>nd725919@sju.edu.
+            <p>nd725919@sju.edu
                </p>
         </section>
     </main>
