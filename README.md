@@ -33,7 +33,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; Your Name 2023</p>
+        <p>&copy; Nick DeTulleo 2023</p>
     </footer>
 </body>
 </html>
