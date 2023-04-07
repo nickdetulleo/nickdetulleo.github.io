@@ -16,6 +16,54 @@
 			</ul>
 		</nav>
     </header>
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Philadelphia Murals Slideshow</title>
+	<style>
+		.slideshow {
+			position: relative;
+			height: 500px;
+			width: 100%;
+			overflow: hidden;
+		}
+
+		.slideshow img {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+		}
+
+		.slideshow img.active {
+			opacity: 1;
+		}
+	</style>
+</head>
+<body>
+	<div class="slideshow">
+		<img src="image1.jpg" class="active">
+		<img src="image2.jpg">
+		<img src="image3.jpg">
+		<img src="image4.jpg">
+	</div>
+
+	<script>
+		let slides = document.querySelectorAll('.slideshow img');
+		let currentSlide = 0;
+		let slideInterval = setInterval(nextSlide, 5000);
+
+		function nextSlide() {
+			slides[currentSlide].className = '';
+			currentSlide = (currentSlide + 1) % slides.length;
+			slides[currentSlide].className = 'active';
+		}
+	</script>
+</body>
+</html>
+
     <footer>
         <p>&copy; Nick DeTulleo 2023 </p>
     </footer>
