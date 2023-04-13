@@ -5,14 +5,18 @@ body, h1, h2, ul, p, form {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
 }
 
 h1, h2 {
     text-align: center;
     margin: 1em 0;
     font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
@@ -123,4 +127,5 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
 
