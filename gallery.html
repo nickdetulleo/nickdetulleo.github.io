@@ -41,5 +41,24 @@
 	<footer>
 		<p>&copy; 2023 Mural Project</p>
 	</footer>
+
+.image-gallery {
+    max-width: 800px; /* Set the desired width for your image gallery container */
+    margin: auto;
+    padding: 20px; /* Add spacing around the gallery */
+}
+
+.image-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Set the number of columns in the grid */
+    gap: 10px; /* Set the spacing between images */
+}
+
+.image-gallery img {
+    width: 100%; /* Ensure images fit nicely within the grid cells */
+    height: auto;
+    object-fit: cover;
+}
+
 </body>
 </html>
