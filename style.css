@@ -28,7 +28,11 @@ a {
     color: #000;
 }
 
-
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .gallery-item {
     margin: 1em;
@@ -119,26 +123,11 @@ input[type=submit] {
     font-size: 16px;
     cursor: pointer;
 }
-  <style>
-    .image-gallery {
-      max-width: 100px; /* set the maximum width of the container */
-      margin: 0 auto; /* center the container horizontally */
-      display: grid; /* display as a grid */
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* auto-fit columns with minimum width of 200px and maximum width of 1fr (equal width) */
-      gap: 10px; /* set the gap between grid cells */
-    }
 
-    .image-gallery img {
-      width: 100%; /* set the width of the images to 100% of their container */
-      height: auto; /* maintain aspect ratio */
-    }
-  </style>
-  <div class="image-gallery">
-    <img src="murals/image1.jpg" alt="Image 1">
-    <img src="murals/image2.jpg" alt="Image 2">
-    <img src="murals/image3.jpg" alt="Image 3">
-    <!-- ... and so on for the remaining 12 images -->
-  </div>
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
 
 
 
