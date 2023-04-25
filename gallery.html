@@ -19,51 +19,29 @@
 	</header>
 	<main>
 		<section>
-				
+	<title>Philadelphia Murals Slideshow</title>
+	<!DOCTYPE html>
 <html>
 <head>
-	<title>Philadelphia Murals Slideshow</title>
-	<style>
-		.slideshow {
-			position: relative;
-			height: 500px;
-			width: 100%;
-			overflow: hidden;
-		}
-
-		.slideshow img {
-			position: absolute;
-			height: 100%;
-			width: 100%;
-			object-fit: cover;
-			opacity: 0;
-			transition: opacity 1s ease-in-out;
-		}
-
-		.slideshow img.active {
-			opacity: 1;
-		}
-	</style>
+    <title>Rotating Image Wheel</title>
+    <!-- Include CSS file for styling -->
+    <link rel="stylesheet" href="image_wheel.css">
 </head>
 <body>
-	<div class="slideshow">
-		<img src="image1.jpg" class="active">
-		<img src="image2.jpg">
-		<img src="image3.jpg">
-		<img src="image4.jpg">
-	</div>
+    <div class="image-wheel-container">
+        <div class="image-wheel">
+            <img src="https://github.com/nickdetulleo/murals/blob/main/images/gardenmural.jpg" alt="Image 1">
+            <img src="image2.jpg" alt="Image 2">
+            <img src="image3.jpg" alt="Image 3">
+            <!-- Add more <img> tags for additional images -->
+        </div>
+    </div>
 
-	<script>
-		let slides = document.querySelectorAll('.slideshow img');
-		let currentSlide = 0;
-		let slideInterval = setInterval(nextSlide, 5000);
+    <!-- Include JavaScript file for image wheel functionality -->
+    <script src="image_wheel.js"></script>
+</body>
+</html>
 
-		function nextSlide() {
-			slides[currentSlide].className = '';
-			currentSlide = (currentSlide + 1) % slides.length;
-			slides[currentSlide].className = 'active';
-		}
-	</script>
 		</section>
 	</main>
 	<footer>
