@@ -128,6 +128,21 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+.slideshow-container {
+    max-width: 500px; /* Set the desired width for your slideshow */
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-image {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+/* Optional: Add any additional styles for the slideshow, such as transitions, etc. */
+
+
 
 
 
